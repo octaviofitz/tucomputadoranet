@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "title": "Iphone SE",
+    "description": "lorem ipsum dolor amet sit",
+    "price": 100,
+    "image": "pc-default.jpg",
+    "category": "escritorio"
+  },
+  {
+    "id": 2,
+    "title": "Samsung A02",
+    "description": "lorem ipsum dolor amet sit",
+    "price": 100,
+    "image": "pc-default.jpg",
+    "category": "escritorio"
+  },
+  {
+    "id": 3,
+    "title": "Hyundai K4",
+    "description": "lorem ipsum dolor amet sit",
+    "price": 100,
+    "image": "pc-default.jpg",
+    "category": "escritorio"
+  },
+  {
+    "id": 4,
+    "title": "Motorola G9",
+    "description": "lorem ipsum dolor amet sit",
+    "price": 100,
+    "image": "pc-default.jpg",
+    "category": "escritorio"
+  },
+  {
+    "id": 5,
+    "title": "LG Luminus",
+    "description": "lorem ipsum dolor amet sit",
+    "price": 100,
+    "image": "pc-default.jpg",
+    "category": "escritorio"
+  },
+  {
+    "id": 6,
+    "title": "Nokia 1100",
+    "description": "lorem ipsum dolor amet sit",
+    "price": 100,
+    "image": "pc-default.jpg",
+    "category": "escritorio"
+  },
+  {
+    "id": 7,
+    "title": "Iphone SE",
+    "description": "lorem ipsum dolor amet sit",
+    "price": 100,
+    "image": "pc-default.jpg",
+    "category": "escritorio"
+  },
+  {
+    "id": 8,
+    "title": "Samsung A02",
+    "description": "lorem ipsum dolor amet sit",
+    "price": 100,
+    "image": "pc-default.jpg",
+    "category": "escritorio"
+  },
+  {
+    "id": 9,
+    "title": "Lenovo i5 4GB RAM",
+    "description": "lorem ipsum dolor amet sit",
+    "price": 500,
+    "image": "notebook-default.jpg",
+    "category": "notebook"
+  },
+  {
+    "id": 10,
+    "title": "Lenovo i5 4GB RAM",
+    "description": "lorem ipsum dolor amet sit",
+    "price": 500,
+    "image": "notebook-default.jpg",
+    "category": "notebook"
+  },
+  {
+    "id": 11,
+    "title": "Lenovo i5 4GB RAM",
+    "description": "lorem ipsum dolor amet sit",
+    "price": 500,
+    "image": "notebook-default.jpg",
+    "category": "notebook"
+  },
+  {
+    "id": 12,
+    "title": "Lenovo i5 4GB RAM",
+    "description": "lorem ipsum dolor amet sit",
+    "price": 500,
+    "image": "notebook-default.jpg",
+    "category": "notebook"
+  },
+  {
+    "id": 13,
+    "title": "Lenovo i5 4GB RAM",
+    "description": "lorem ipsum dolor amet sit",
+    "price": 500,
+    "image": "notebook-default.jpg",
+    "category": "notebook"
+  },
+  {
+    "id": 14,
+    "title": "Lenovo i5 4GB RAM",
+    "description": "lorem ipsum dolor amet sit",
+    "price": 500,
+    "image": "notebook-default.jpg",
+    "category": "notebook"
+  },
+  {
+    "id": 15,
+    "title": "Lenovo i5 4GB RAM",
+    "description": "lorem ipsum dolor amet sit",
+    "price": 500,
+    "image": "notebook-default.jpg",
+    "category": "notebook"
+  },
+  {
+    "id": 16,
+    "title": "",
+    "description": "",
+    "price": 0,
+    "image": "default-image.jpg",
+    "category": ""
+  },
+  {
+    "id": 17,
+    "title": "Dell i7 8GB RAM",
+    "description": "buenarda",
+    "price": 90000,
+    "image": "default-image.jpg",
+    "category": "escritorio "
+  }
+]
