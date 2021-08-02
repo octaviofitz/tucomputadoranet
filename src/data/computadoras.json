@@ -55,7 +55,6 @@
     "image": "notebook-default.jpg",
     "category": "Notebook"
   },
-  
   {
     "id": 8,
     "title": "Dell i7 8GB RAM",
@@ -64,42 +63,47 @@
     "image": "notebook-default.jpg",
     "category": "Notebook"
   },
-    {
+  {
     "id": 9,
     "title": "Memoria RAM 4GB",
     "description": "lorem ipsum dolor amet sit",
     "price": 2500,
     "image": "memoria-ram.jpg",
     "category": "Componente"
-  }, {
+  },
+  {
     "id": 10,
     "title": "Watercooler",
     "description": "lorem ipsum dolor amet sit",
     "price": 4000,
     "image": "water-cooler.jpg",
     "category": "Componente"
-  }, {
+  },
+  {
     "id": 11,
     "title": "Disco Sólido 1TB",
     "description": "lorem ipsum dolor amet sit",
     "price": 3000,
     "image": "disco-solido.jpg",
     "category": "Componente"
-  }, {
+  },
+  {
     "id": 12,
     "title": "Memoria RAM 16GB",
     "description": "lorem ipsum dolor amet sit",
     "price": 9000,
     "image": "memoria-ram.jpg",
     "category": "Componente"
-  }, {
+  },
+  {
     "id": 13,
     "title": "INTEL i7 G10",
     "description": "lorem ipsum dolor amet sit",
     "price": 60000,
     "image": "micro-i7.jpg",
     "category": "Componente"
-  }, {
+  },
+  {
     "id": 14,
     "title": "Placa de video GEFORCE 8GB",
     "description": "lorem ipsum dolor amet sit",
@@ -107,7 +111,6 @@
     "image": "placa-de-video.jpg",
     "category": "Componente"
   },
-
   {
     "id": 15,
     "title": "Lenovo i5 4GB RAM",
@@ -164,7 +167,6 @@
     "image": "pc-default.jpg",
     "category": "Escritorio"
   },
-  
   {
     "id": 22,
     "title": "Dell i7 8GB RAM",
@@ -172,5 +174,13 @@
     "price": 90000,
     "image": "pc-default.jpg",
     "category": "Escritorio"
+  },
+  {
+    "id": 23,
+    "title": "Placa Madre Am4 Asus Prime A320m",
+    "description": "DDR4 3200MHz, 32Gb / s M.2, HDMI",
+    "price": 12500,
+    "image": "image-1627886313355.jpg",
+    "category": "Componente"
   }
 ]

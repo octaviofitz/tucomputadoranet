@@ -10,7 +10,7 @@
     <div class="container">
         <div class="formulario mt-5">
           <h2>Agregar Producto</h2>
-            <form action="" method="POST">
+            <form action="" method="POST" enctype="multipart/form-data"> <!-- agregar en el enctype para poder subir fotos -->
                 <div class="mb-3">
                     <label for="formGroupExampleInput" class="form-label">Nombre</label>
                     <input type="text" class="form-control" id="formGroupExampleInput" name="title">
@@ -29,10 +29,14 @@
                     <select id="category" class="form-select" name="category">
                         <option value="" selected hidden>Seleccione la categoría</option>
                         <% categorias.forEach(categoria => { %>
-                            <option value="<%= categoria %> "><%= categoria %> </option>
+                            <option value="<%= categoria%>"><%= categoria%></option>
                          
                         <% }) %>
                       </select>
+                  </div>
+                  <div class="mb-3">
+                    <label for="productImage" class="form-label">Imagen</label>
+                    <input type="file" class="form-control" id="productImage" name="image"> <!-- el name es el fieldname -->
                   </div>
                   <button class="btn btn-primary" type="submit">Guardar</button>
             </form>

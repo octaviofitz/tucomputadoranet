@@ -6,16 +6,87 @@
       <%- include('./partials/header') %>
 
     </header>
-    <main>
-      <h1>Registro</h1>
+    <div class="register">
+      <main class="container">
+          <div class="row">
+              <div class="col-7 mx-auto mt-5">
+                  <div class="card">
+                      <div class="card-body">
+                          <h5 class="card-title text-center">REGISTRATE</h5>
+                          <form class="row" method="POST" action="">
+                              <div class="mb-3">
+                                  <label for="exampleInputName" class="form-label">Nombre</label>
+                                  <input type="text" class="form-control" id="exampleInputName" aria-describedby="emailHelp">
+                                </div>
+                              <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                              </div>
+                              <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1">
+                              </div>
+                              <div class="d-flex justify-content-end">
+                                  <div class="mb-3 form-check">
+                                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                      <label class="form-check-label" for="exampleCheck1">Recordarme</label>
+                                    </div>
+                              </div>
+                              <h5>Pais de nacimiento</h5>
+                              <div class="col-12 mb-3">
+                                  <select class="form-select" aria-label="Default select example">
+                                      <option selected>Open this select menu</option>
+                                      <option value="1">One</option>
+                                      <option value="2">Two</option>
+                                      <option value="3">Three</option>
+                                    </select>
+                                </div>
+                                <h5>Género</h5>
 
+                             <div class="col-3 mb-3">
+                              <div class="form-check">
+                                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                  <label class="form-check-label" for="flexRadioDefault1">
+                                    Masculino
+                                  </label>
+                                </div>
+                              </div>
+                              <div class="col-3 mb-3">
+                                  <div class="form-check">
+                                      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                                      <label class="form-check-label" for="flexRadioDefault2">
+                                        Femenino
+                                      </label>
+                                    </div>
+                              </div>
+                              <div class="col-6 mb-4">
+                                  <div class="form-check">
+                                      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                                      <label class="form-check-label" for="flexRadioDefault2">
+                                        No binario  
+                                      </label>
+                                    </div>
+                              </div>
+                                </div>
+                              <h5 class="mt-4">Dejanos tus comentarios</h5>
 
+                              <div class="mb-3">
+                                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
+                              <div>
+                                  <button type="submit" class="btn btn-primary">Enviar</button>
 
+                              </div>
+                            </form>
+                      </div>
+                     
+                  </div>
+              </div>
+          </div>
+         
 
-
-
-
-    </main>
+      </main>
+  </div>
     <footer>
 
     </footer>

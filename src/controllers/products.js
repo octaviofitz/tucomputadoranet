@@ -31,21 +31,33 @@ module.exports= {
     guardarProducto: (req,res) => { 
         const {title, description,price,category} = req.body;
         
-        let computadora= {
-            id : computadoras[computadoras.length - 1].id + 1,
+        let productoNuevo= {
+            id : stocks[stocks.length - 1].id + 1,
             title,
             description,
             price : +price,
-            image : 'default-image.jpg',
+            image : req.file ? req.file.filename : 'default-image.jpg', /* si viene un archivo por file, guardalo, y si no ponele la imagen default */
             category
         }
 
-        computadoras.push(computadora);
+        stocks.push(productoNuevo);
         
-        fs.writeFileSync(path.join(__dirname, '..', 'data', 'computadoras.json'),JSON.stringify(computadoras,null,2),'utf-8')
+        fs.writeFileSync(path.join(__dirname, '..', 'data', 'computadoras.json'),JSON.stringify(stocks,null,2),'utf-8')
         return res.redirect('/')
 
     },
+    detalle: (req,res) => { 
+        let detalleProducto = stocks.find(stocks => stocks.id === +req.params.id);
+
+        return res.render('detalleProducto',{
+            title: 'TuComputadoraNet',         
+           stocks,
+           detalleProducto,
+        })
+    },
+    eliminar : (req,res) => {
+        res.send(req.params.id)
+    }
 
 }
 
