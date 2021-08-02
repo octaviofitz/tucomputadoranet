@@ -1,33 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <%- include('./partials/head') %>
+
   <body>
     <header>
       <%- include('./partials/header') %>
 
     </header>
+    
+
     <main class="container">
-      <div class="row">
+      <section>
+      <h2>Notebooks</h2>
+          <% notebook.forEach(stock => { %> 
+        <div class="card"> 
+          <img src="/images/<%= stock.image %> " class="card-img-top" style="width: 18rem">
+          <div class="card-body">
+            <h5 class="card-title"><%= stock.title %> </h5>
+            <p class="card-text"><%= stock.description %> </p>
+            <a href="#" class="btn btn-primary">Ver más</a>
+          </div>
+        </div>
+      </div> 
+    </section>
+    <% }) %>
 
-        <section class="productos col-12 col-md-8 col-lg-9 mt-5">
-          <h3>Computadoras de escritorio</h3>
-          <div class="celulares row py-4 gx-3">
-            
-              <div class="col-12 col-md-6 col-lg-4 my-2">
-            </h4>
-        </section>
-      </div>
-      
+    <section>
+      <h2>Computadoras de Escritorio</h2>
+          <% pcescritorio.forEach(stock => { %>      
+        <div class="card"> 
+          <img src="/images/<%= stock.image %> " class="card-img-top" style="width: 18rem">
+          <div class="card-body">
+            <h5 class="card-title"><%= stock.title %> </h5>
+            <p class="card-text"><%= stock.description %> </p>
+            <a href="#" class="btn btn-primary">Ver más</a>
+          </div>
+        </div>
+      </div> 
+    </section>
+    <% }) %>
 
-
-
-
-
-
+    <section>
+      <h2>Componentes</h2>
+          <% componente.forEach(stock => { %>      
+        <div class="card"> 
+          <img src="/images/<%= stock.image %> " class="card-img-top" style="width: 18rem">
+          <div class="card-body">
+            <h5 class="card-title"><%= stock.title %> </h5>
+            <p class="card-text"><%= stock.description %> </p>
+            <a href="#" class="btn btn-primary">Ver más</a>
+          </div>
+        </div>
+      </div> 
+    </section>
+    <% }) %>
 
     </main>
     <footer>
-
     </footer>
     <%- include('./partials/scripts') %>
   </body>

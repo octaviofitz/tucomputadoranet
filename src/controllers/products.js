@@ -1,4 +1,4 @@
-const computadoras= require('../data/computadoras_db')
+const stocks= require('../data/computadoras_db')
 const categorias= require('../data/categorias_db')
 const fs = require('fs');
 const path = require('path');
@@ -8,21 +8,23 @@ module.exports= {
     computadoras: (req,res) => { 
         return res.render('computadoras',{
             title: 'TuComputadoraNet',         
-           computadoras,
-           categorias
+           stocks,
+           categorias,
+           pcescritorio: stocks.filter(stocks => stocks.category === "Escritorio"),
         })
     },
     notebooks: (req,res) => { 
         return res.render('notebooks',{
             title: 'TuComputadoraNet',         
-           computadoras,
-           categorias
+           stocks,
+           categorias,
+           notebook: stocks.filter(stocks => stocks.category === "Notebook"),
         })
     },
     agregarProducto: (req,res) => { 
         return res.render('agregarproducto',{
             title: 'TuComputadoraNet',         
-           computadoras,
+           stocks,
            categorias,
         })
     },

@@ -6,11 +6,22 @@
       <%- include('./partials/header') %>
 
     </header>
-    <main>
-      <h1>computadoras</h1>
-
-
-    </main>
+    <main class="container">
+      <section>
+        <h2>Computadora de escritorio</h2>
+            <% pcescritorio.forEach(stock => { %>      
+          <div class="card"> 
+            <img src="/images/<%= stock.image %> " class="card-img-top" style="width: 18rem">
+            <div class="card-body">
+              <h5 class="card-title"><%= stock.title %> </h5>
+              <p class="card-text"><%= stock.description %> </p>
+              <a href="#" class="btn btn-primary">Ver más</a>
+            </div>
+          </div>
+        </div> 
+      </section>
+      <% }) %>
+      </main>
     <footer>
 
     </footer>

@@ -1,6 +1,5 @@
 const categorias= require('../data/categorias_db')
-const componentes= require('../data/componentes_db')
-const computadoras= require('../data/computadoras_db')
+const stocks= require('../data/computadoras_db')
 
 
 module.exports= {
@@ -8,8 +7,10 @@ module.exports= {
         return res.render('index',{
             title: 'TuComputadoraNet',
            categorias,
-           componentes,
-           computadoras,
+           stocks,
+           pcescritorio: stocks.filter(stocks => stocks.category === "Escritorio"),
+           notebook: stocks.filter(stocks => stocks.category === "Notebook"),
+           componente: stocks.filter(stocks => stocks.category === "Componente"),
         })
     },
 }
